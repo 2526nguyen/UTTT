@@ -1,0 +1,79 @@
+    public static void fillBoard(String[] receive){
+    	String s;
+    	
+    	Scanner in = new Scanner(System.in);
+    	
+    	s = in.nextLine();
+    	String turn = s.substring(0,1);
+    	int matchTurn = Integer.parseInt(turn);
+    	
+    	if (matchTurn = 1);
+    	//player 1 turn
+    	//Implement with server code
+    	
+    	//First marker
+    	String fill1 = s.substring(1,5);
+    	int [] f1 = new int [fill1.length()];
+    	
+    	for(int n = 0; n < fill1.length(); n++) {
+            f1[n] = Integer.parseInt(fill1.split(",")[n]);
+        
+        //Second marker 
+    	String fill2 = s.substring(5,9);
+    	int [] f2 = new int [fill2.length()];
+    	
+    	for(int n2 = 0; n2 < fill2.length(); n2++) {
+            f2[n2] = Integer.parseInt(fill2.split(",")[n2]);
+          
+            
+        //Third marker 
+    	String fill3 = s.substring(9,13);
+    	int [] f3 = new int [fill3.length()];
+    	
+    	for(int n3 = 0; n3 < fill3.length(); n3++) {
+            f3[n3] = Integer.parseInt(fill3.split(",")[n3]);
+            
+        //Fourth marker 
+    	String fill4 = s.substring(13,17);
+    	int [] f4 = new int [fill4.length()];
+    	
+    	for(int n4 = 0; n4 < fill4.length(); n4++) {
+            f4[n4] = Integer.parseInt(fill4.split(",")[n4]);
+            
+            
+        //And so forth 
+    	String fill5 = s.substring(17,21);
+    	int [] f5 = new int [fill5.length()];
+    	
+    	for(int n5 = 0; n5 < fill5.length(); n5++) {
+            f5[n5] = Integer.parseInt(fill5.split(",")[n5]);
+            
+    	String fill6 = s.substring(21,25);
+    	int [] f6 = new int [fill6.length()];
+    	
+    	for(int n6 = 0; n6 < fill6.length(); n6++) {
+            f6[n6] = Integer.parseInt(fill6.split(",")[n6]);
+            
+    	String fill7 = s.substring(25,29);
+    	int [] f7 = new int [fill7.length()];
+    	
+    	for(int n7 = 0; n7 < fill7.length(); n7++) {
+            f7[n7] = Integer.parseInt(fill7.split(",")[n7]);
+            
+    	String fill8 = s.substring(29,33);
+    	int [] f8 = new int [fill8.length()];
+    	
+    	for(int n8 = 0; n8 < fill8.length(); n8++) {
+            f8[n8] = Integer.parseInt(fill8.split(",")[n8]);
+            
+    	String fill9 = s.substring(33,37);
+    	int [] f9 = new int [fill9.length()];
+    	
+    	for(int n9 = 0; n9 < fill9.length(); n9++) {
+            f9[n9] = Integer.parseInt(fill9.split(",")[n9]);
+    	
+    }
+        
+
+    }
+}
